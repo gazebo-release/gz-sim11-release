@@ -1,24 +1,6 @@
-gz-sim10 (10.0.0-1~noble) noble; urgency=medium
-
-  * gz-sim10 10.0.0-1 release
-
- -- Carlos Aguero <caguero@osrfoundation.org>  Mon, 29 Sep 2025 21:32:53 +0200
-
-gz-sim10 (10.0.0~pre2-1~noble) noble; urgency=medium
-
-  * gz-sim10 10.0.0~pre2-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 24 Sep 2025 19:29:16 -0500
-
-gz-sim10 (10.0.0~pre1-1~noble) noble; urgency=medium
-
-  * gz-sim10 10.0.0~pre1-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Wed, 27 Aug 2025 02:33:19 +0000
-
-gz-sim10 (9.999.999-1~noble) noble; urgency=medium
+gz-sim11 (10.999.999-1~noble) noble; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Carlos Aguero <caguero@openrobotics.org>  Tue, 08 Oct 2024 20:52:52 +0200
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Sat, 03 Jan 2026 00:22:15 +0000
 

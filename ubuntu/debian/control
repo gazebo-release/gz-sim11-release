@@ -1,4 +1,4 @@
-Source: gz-sim10
+Source: gz-sim11
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -35,18 +35,18 @@ Build-Depends: cmake,
 # doxygen and grapviz are excluded per bug:
 # https://github.com/gazebosim/gz-sim/issues/1409
 Vcs-Browser: https://github.com/gazebosim/gz-sim
-Vcs-Git: https://github.com/gazebo-release/gz-sim10-release
+Vcs-Git: https://github.com/gazebo-release/gz-sim11-release
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libgz-sim10
+Package: libgz-sim11
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml6-module-qtqml-models
-Recommends: gz-sim10-cli
+Recommends: gz-sim11-cli
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Shared library
  Gazebo Sim is a component in the Gazebo framework, a set of libraries
@@ -54,9 +54,9 @@ Description: Gazebo Sim classes and functions for robot apps - Shared library
  .
  Main shared library
 
-Package: gz-sim10-cli
+Package: gz-sim11-cli
 Architecture: any
-Depends: libgz-sim10 (= ${binary:Version}),
+Depends: libgz-sim11 (= ${binary:Version}),
          ${shlibs:Depends},
          ${misc:Depends}
 Multi-Arch: no
@@ -66,12 +66,12 @@ Description: Gazebo Sim classes and functions for robot apps - CLI
  .
  The package ships the CLI.
 
-Package: libgz-sim10-plugins
+Package: libgz-sim11-plugins
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: python3-gz-sim10
+Recommends: python3-gz-sim11
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Plugins
  Gazebo Sim is a component in the Gazebo framework, a set of libraries
@@ -79,7 +79,7 @@ Description: Gazebo Sim classes and functions for robot apps - Plugins
  .
  Plugins collection
 
-Package: libgz-sim10-dev
+Package: libgz-sim11-dev
 Architecture: any
 Section: libdevel
 Depends: libtinyxml2-dev,
@@ -104,8 +104,8 @@ Depends: libtinyxml2-dev,
          libgz-utils4-cli-dev,
          libgz-utils4-dev,
          libsdformat16-dev,
-         libgz-sim10 (= ${binary:Version}),
-         libgz-sim10-plugins (= ${binary:Version}),
+         libgz-sim11 (= ${binary:Version}),
+         libgz-sim11-plugins (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Development files
@@ -114,9 +114,9 @@ Description: Gazebo Sim classes and functions for robot apps - Development files
  .
  Development files
 
-Package: python3-gz-sim10
+Package: python3-gz-sim11
 Architecture: any
-Depends: libgz-sim10 (= ${binary:Version}),
+Depends: libgz-sim11 (= ${binary:Version}),
          python3-gz-math9,
          python3-gz-msgs12,
          python3-gz-transport15,
@@ -125,19 +125,19 @@ Depends: libgz-sim10 (= ${binary:Version}),
          ${misc:Depends},
          ${python3:Depends},
          ${shlibs:Depends},
-Enhances: libgz-sim10
+Enhances: libgz-sim11
 Description: Gazebo Sim classes and functions for robot apps - Development files
  Gazebo Sim is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  The package contains the Python3 bindings.
 
-Package: libgz-sim10-dbg
+Package: libgz-sim11-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libgz-sim10 (= ${binary:Version}),
+     libgz-sim11 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Debug symbols
@@ -145,35 +145,3 @@ Description: Gazebo Sim classes and functions for robot apps - Debug symbols
  designed to rapidly develop robot applications.
  .
  Debug symbols
-
-Package: gz-jetty-sim
-Depends: libgz-sim10-dev (= ${binary:Version}), ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: metapackages
-Description: alias package
- Provides a package for Jetty without exposing the version number.
-
-Package: gz-jetty-sim-cli
-Depends: gz-sim10-cli (= ${binary:Version}), ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: metapackages
-Description: alias package
- Provides a package for Jetty without exposing the version number.
-
-Package: gz-jetty-sim-plugins
-Depends: libgz-sim10-plugins (= ${binary:Version}), ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: metapackages
-Description: alias package
- Provides a package for Jetty without exposing the version number.
-
-Package: gz-jetty-sim-python
-Depends: python3-gz-sim10 (= ${binary:Version}), ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: metapackages
-Description: alias package
- Provides a package for Jetty without exposing the version number.
