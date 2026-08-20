@@ -1,4 +1,6 @@
-usr/libexec/gz/sim*/*
+usr/libexec/gz/sim/gz-sim-gui-client
+usr/libexec/gz/sim/gz-sim-main
+usr/libexec/gz/sim/gz-sim-model
 usr/lib/ruby/gz/*.rb
 usr/share/*/sim*.yaml
 usr/share/*/model*.yaml
