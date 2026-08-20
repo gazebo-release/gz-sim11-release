@@ -1,6 +1,5 @@
-gz-sim11 (10.999.999-1~noble) noble; urgency=medium
+gz-sim11 (11.0.0~pre1-1~noble) noble; urgency=medium
 
-  * Stub to be removed after first entry
+  * gz-sim11 11.0.0~pre1-1 release
 
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Sat, 03 Jan 2026 00:22:15 +0000
-
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 20 Aug 2026 16:55:58 +0000
