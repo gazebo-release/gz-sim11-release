@@ -1,1 +1,1 @@
-usr/lib/*/*-*-[0-99]*/plugins/*
+usr/lib/*/gz-sim/plugins/*.so*
