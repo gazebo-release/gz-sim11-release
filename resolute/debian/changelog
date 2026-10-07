@@ -1,3 +1,9 @@
+gz-sim11 (11.0.0~pre2-1~resolute) resolute; urgency=medium
+
+  * gz-sim11 11.0.0~pre2-1 release
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 07 Oct 2026 04:09:23 +0000
+
 gz-sim11 (11.0.0~pre1-1~resolute) resolute; urgency=medium
 
   * gz-sim11 11.0.0~pre1-1 release
