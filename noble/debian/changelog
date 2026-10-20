@@ -1,3 +1,9 @@
+gz-sim11 (11.0.0~pre3-1~noble) noble; urgency=medium
+
+  * gz-sim11 11.0.0~pre3-1 release
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 20 Oct 2026 17:40:30 -0500
+
 gz-sim11 (11.0.0~pre2-1~noble) noble; urgency=medium
 
   * gz-sim11 11.0.0~pre2-1 release
